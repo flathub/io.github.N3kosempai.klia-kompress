@@ -18,5 +18,5 @@ modules:
       - install -Dm644 share/icons/hicolor/512x512/apps/io.github.N3kosempai.klia-kompress.png /app/share/icons/hicolor/512x512/apps/io.github.N3kosempai.klia-kompress.png
     sources:
       - type: archive
-        url: https://github.com/N3koSempai/klia-kompress/releases/download/v2.2.0/klia-kompress-2.2.0-x86_64.tar.gz
-        sha256: f85367e66518ddf246a4bd6f5440967d8959a2407edf26f6257c9715f66c4e65
+        url: https://github.com/N3koSempai/klia-kompress/releases/download/v2.3.0/klia-kompress-2.3.0-x86_64.tar.gz
+        sha256: a53225c824646023559a8bbec1f1ab9dce7b0bb4b6c429ea63ce299299e6da93
