@@ -13,10 +13,11 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm755 klia-kompress /app/bin/klia-kompress
+      - install -Dm644 share/licenses/klia-kompress/THIRD_PARTY_LICENSES.md /app/share/licenses/klia-kompress/THIRD_PARTY_LICENSES.md
       - install -Dm644 share/applications/io.github.N3kosempai.klia-kompress.desktop /app/share/applications/io.github.N3kosempai.klia-kompress.desktop
       - install -Dm644 share/metainfo/io.github.N3kosempai.klia-kompress.metainfo.xml /app/share/metainfo/io.github.N3kosempai.klia-kompress.metainfo.xml
       - install -Dm644 share/icons/hicolor/512x512/apps/io.github.N3kosempai.klia-kompress.png /app/share/icons/hicolor/512x512/apps/io.github.N3kosempai.klia-kompress.png
     sources:
       - type: archive
-        url: https://github.com/N3koSempai/klia-kompress/releases/download/v2.6.0/klia-kompress-2.6.0-x86_64.tar.gz
-        sha256: 07d813e706d2e173ef6b08ce9971fdc0407d3bf999f270b5bbbf41677c9b9e11
+        url: https://github.com/N3koSempai/klia-kompress/releases/download/v2.7.0/klia-kompress-2.7.0-x86_64.tar.gz
+        sha256: 758f09e6d2f7079a7c4197cc1517f38f692f3ea390ee983169f112f7a5d79e6a
